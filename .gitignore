@@ -11,3 +11,7 @@ next-env.d.ts
 public/uploads
 
 .claude
+.vercel
+.env*
+.agents
+skills-lock.json
