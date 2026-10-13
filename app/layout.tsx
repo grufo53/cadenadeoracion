@@ -38,7 +38,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           </nav>
         </header>
         <main>{children}</main>
-        <footer className="footer">Ave María Purísima · Sin pecado concebida</footer>
+        <footer className="footer">
+          <a href="https://www.elsantorosario.es/como-rezar-el-rosario/" target="_blank" rel="noopener noreferrer">
+            Cómo rezar el Rosario
+          </a>
+          <p>Ave María Purísima · Sin pecado concebida</p>
+        </footer>
       </body>
     </html>
   );

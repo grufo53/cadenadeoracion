@@ -53,6 +53,7 @@ img { max-width: 100%; }
 .brand-mark { color: #e2c078; margin-right: 4px; }
 .link-btn { background: none; border: 0; padding: 0; color: inherit; font: inherit; cursor: pointer; }
 .footer { text-align: center; padding: 20px 16px; color: var(--muted); font-size: 0.85rem; font-style: italic; }
+.footer a { display: inline-block; margin-bottom: 6px; font-size: 0.95rem; font-style: normal; font-weight: 600; }
 
 /* ---------- Elementos comunes ---------- */
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px; }
